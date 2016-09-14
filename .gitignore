@@ -1,5 +1,9 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
+# Additional WebStorm configurations to ignore
+.idea/watcherTasks.xml
+.idea/misc.xml
+
 # Production
 build
 
