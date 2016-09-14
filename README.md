@@ -9,17 +9,12 @@ Fastest way to share your own festival timetable
 festime/
   node_modules/
   src/
-    index.css
-    index.js
+    assets/
+    components/
     containers/
-      App/
-        App.css
-        App.js
-        App.test.js
     favicon.ico
     index.css
     index.js
-    logo.svg
   .gitignore
   index.html
   package.json
