@@ -6,6 +6,7 @@ import { Provider } from 'react-redux';
 
 import routes from './routes';
 import './index.css';
+import 'normalize.css';
 
 import injectTapEventPlugin from 'react-tap-event-plugin';
 injectTapEventPlugin();
