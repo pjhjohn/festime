@@ -7,6 +7,9 @@ import { Provider } from 'react-redux';
 import routes from './routes';
 import './index.css';
 
+import injectTapEventPlugin from 'react-tap-event-plugin';
+injectTapEventPlugin();
+
 import configureStore from './store/ConfigureStore';
 const store = configureStore();
 
