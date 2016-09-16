@@ -1,10 +1,22 @@
 import React, { Component, PropTypes } from 'react';
 
+import Toggle from 'material-ui/Toggle';
+
 import logo from './../../assets/images/logo.svg';
 import './Welcome.css';
 
-const inlineStyle = {
-  cursor: 'pointer'
+const styles = {
+  roboto: {
+    fontFamily: 'Roboto',
+    fontWeight: '400'
+  },
+  toggle: {
+    maxWidth: 200,
+    margin: '0 auto',
+    label: {
+      color: 'white'
+    }
+  }
 };
 
 class Welcome extends Component {
@@ -14,13 +26,17 @@ class Welcome extends Component {
 
   render() {
     return (
-      <div>
+      <div style={styles.roboto}>
         <div className="Welcome-header">
-          <a onClick={this.props.onClick} style={inlineStyle}>
-            <img src={logo} className={`Welcome-logo-${this.props.cw? `cw` : `ccw`}`} alt="logo" />
-          </a>
+          <img src={logo} className={`Welcome-logo-${this.props.cw? `cw` : `ccw`}`} alt="logo" />
           <h2>Welcome to React</h2>
-          <h4>{`It's spinning ${this.props.cw? `clockwise` : `counter-clockwise`}!! Click to toggle spin!`}</h4>
+          <Toggle
+            label={`${this.props.cw? `Clockwise` : `Counter Clockwise`}`}
+            defaultToggled={this.props.cw}
+            onToggle={this.props.onClick}
+            style={styles.toggle}
+            labelStyle={styles.toggle.label}
+          />
         </div>
         <p className="Welcome-intro">
           To get started, edit <code>src/Welcome.js</code> and save to reload.
