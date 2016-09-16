@@ -4,7 +4,6 @@ import { Router, browserHistory } from 'react-router';
 
 import { Provider } from 'react-redux';
 
-import 'normalize.css';
 import './index.css';
 import routes from './routes';
 
