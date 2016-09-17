@@ -6,6 +6,7 @@ import { bindActionCreators } from 'redux';
 import { toggleSpin } from './../../actions/toggleSpin';
 
 import Welcome from './../../components/Welcome/Welcome';
+import CountDown from './../../components/CountDown/CountDown';
 
 import './Home.css';
 
@@ -22,6 +23,7 @@ class Home extends Component {
     return (
       <div className="Home">
         <Welcome cw={this.props.cw} onClick={() => this.props.toggleSpin()}/>
+        <CountDown />
       </div>
     );
   }
