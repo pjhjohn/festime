@@ -4,7 +4,7 @@ import { Router, browserHistory } from 'react-router';
 
 import { Provider } from 'react-redux';
 
-import './index.css';
+import './index.scss';
 import routes from './routes';
 
 import injectTapEventPlugin from 'react-tap-event-plugin';

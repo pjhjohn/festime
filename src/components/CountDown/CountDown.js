@@ -1,4 +1,5 @@
 import React from 'react';
+import './CountDown.scss';
 
 const festival = 'October 22 2016 00:00:00 GMT+0900';
 

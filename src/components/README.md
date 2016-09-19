@@ -2,8 +2,11 @@
 
 ```
 components/
+  CountDown/
+    CountDown.scss
+    CountDown.js
   Welcome/
-    Welcome.css
+    Welcome.scss
     Welcome.js
   README.md
 ```
