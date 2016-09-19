@@ -3,10 +3,10 @@
 ```
 containers/
   App/
-    App.css
+    App.scss
     App.js
   Home/
-    Home.css
+    Home.scss
     Home.js
   README.md
 ```

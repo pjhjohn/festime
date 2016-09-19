@@ -3,7 +3,7 @@ import React, { Component, PropTypes } from 'react';
 import Toggle from 'material-ui/Toggle';
 
 import logo from './../../assets/images/logo.svg';
-import './Welcome.css';
+import './Welcome.scss';
 
 const styles = {
   roboto: {
