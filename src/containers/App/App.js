@@ -3,7 +3,7 @@ import { Container } from 'react-grid-system';
 
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
-import './App.css';
+import './App.scss';
 
 class App extends Component {
   render() {

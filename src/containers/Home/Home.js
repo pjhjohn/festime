@@ -8,7 +8,7 @@ import { toggleSpin } from './../../actions/toggleSpin';
 import Welcome from './../../components/Welcome/Welcome';
 import CountDown from './../../components/CountDown/CountDown';
 
-import './Home.css';
+import './Home.scss';
 
 class Home extends Component {
   static propTypes = {
