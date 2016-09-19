@@ -13,7 +13,7 @@ festime/
     components/
     containers/
     favicon.ico
-    index.css
+    index.scss
     index.js
   .gitignore
   index.html
