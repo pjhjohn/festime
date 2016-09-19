@@ -3,10 +3,10 @@
 ```
 components/
   CountDown/
-    CountDown.scss
     CountDown.js
+    CountDown.scss
   Welcome/
-    Welcome.scss
     Welcome.js
+    Welcome.scss
   README.md
 ```

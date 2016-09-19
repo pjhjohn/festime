@@ -68,12 +68,6 @@ festime/
   node_modules/
   scripts/
   src/
-    assets/
-    components/
-    containers/
-    favicon.ico
-    index.css
-    index.js
   .gitignore
   index.html
   package.json
