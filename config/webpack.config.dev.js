@@ -91,6 +91,11 @@ module.exports = {
       }
     ],
     loaders: [
+      {
+        test: /\.scss$/,
+        include: paths.appSrc,
+        loader: 'style!css!postcss!sass'
+      },  
       // Process JS with Babel.
       {
         test: /\.(js|jsx)$/,
@@ -103,10 +108,10 @@ module.exports = {
       // "style" loader turns CSS into JS modules that inject <style> tags.
       // In production, we use a plugin to extract that CSS to a file, but
       // in development "style" loader enables hot editing of CSS.
-      {
-        test: /\.css$/,
-        loader: 'style!css!postcss'
-      },
+      // {
+      //   test: /\.css$/,
+      //   loader: 'style!css!postcss'
+      // },
       // JSON is not enabled by default in Webpack but both Node and Browserify
       // allow it implicitly so we also enable it.
       {
